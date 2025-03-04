@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "CSS/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div class = "calculadora">
+        <div class = "visor">
+                <div class = "tela"> <p id = "telinha"></p>
+                </div>
+
+        </div>
+        <div class = "botões">
+            <button id = "deletar" onclick = "deletar()">C</button>
+            <button id = "vezes" onclick = "multi()">x</button>
+            <button id = "dividido" onclick = "divided()">/</button>
+
+            
+            <button class = "num" id ="sete" onclick = "seven()"> 7 </button>
+            <button class = "num" id="oito" onclick = "eight()"> 8 </button>
+            <button class = "num" id="nove" onclick = "nine()"> 9 </button>
+            
+            <button id = "mais" onclick = "plus()">+</button>
+
+            <button class = "num" id ="quatro" onclick = "four()"> 4 </button>
+            <button class = "num" id="cinco" onclick = "five()"> 5 </button>
+            <button class = "num" id="seis" onclick = "six()"> 6 </button>
+           
+            <button id = "menos" onclick = "minus()">-</button>
+
+            
+           
+            <button class = "num" id="one" onclick = "one()"> 1 </button>
+            <button class = "num" id="dois" onclick = "two()"> 2 </button>
+            <button class = "num" id="tres" onclick = "three()"> 3 </button>
+            <button id = "igual" onclick = "equal()">=</button>
+            
+
+            <button class = "num" id="zero" onclick = "zero()"> 0 </button>
+            <button id = "ponto" onclick = "point()">.</button>
+            
+        </div>
+    </div>
+    <!--
+    <button id = "deletar" onclick = "deletar()">C</button>
+    <button class = "num" id="seis" onclick = "six()"> 6 </button>
+    <button class = "num" id="cinco" onclick = "five()"> 5 </button>
+    <button class = "num" id ="quatro" onclick = "four()"> 4 </button>
+    <button class = "num" id="tres" onclick = "three()"> 3 </button>
+    <button id = "mais" onclick = "plus()">+</button>
+    <button id = "menos" onclick = "minus()">-</button>
+   
+    <button id = "ponto" onclick = "point()">.</button>
+    <button id = "igual" onclick = "equal()">=</button>
+-->
+    <p id = "teste"></p>
+    <script src="script.js"></script>
+</body>
+</html>
